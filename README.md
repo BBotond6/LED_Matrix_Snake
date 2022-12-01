@@ -1,15 +1,15 @@
 # LED Matrix (8x32) Snake with JoyStick
 8x32 user controlable LED Matrix Snake
 ## Used components
-- Potenciometer joystick
+- Potentiometer joystick
 - Phototransistor
 - Remote Controller
 - 8x32 LED Matrix (FC16_HW)
 - Arduino uno R3
-## Workin principle - Event loop
+## Working principle - Event loop
 1. Analog read potentiometer values or read Remote Controller's pressed buttons with phototransistor
     - "OK" button in Remote Controller can change between the modes
-3. Timimg calculation
+3. Timing calculation
 4. Snake shape calculation
 5. Drawing - Digital out
 ## Demo video
